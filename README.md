@@ -15,7 +15,7 @@
 
 ## Project Architecture
 
-
+````
 EnvGuard/
 │
 ├── config.py       # Secret signatures, regex patterns, and ignore rules
@@ -24,7 +24,7 @@ EnvGuard/
 ├── reporter.py     # Formatter for critical security alerts and audit reports
 └── guard.py        # CLI entry point and exit-code handler
 
-
+````
 ## Installation & Setup
 Clone or copy the project files into your local directory.
 
@@ -40,10 +40,10 @@ If you are already inside the directory you want to audit:
 python guard.py
 2. Scan a Specific Repository or Path
 Pass any target folder path as a command-line argument:
-
-## Bash
 python guard.py /path/to/your/target/repository
-Example Outputs
+
+
+## Example Outputs
 Secure State
 Plaintext
 [*] Initializing EnvGuard Enterprise Scanner on target: guard.py /path/to/your/target/repository
